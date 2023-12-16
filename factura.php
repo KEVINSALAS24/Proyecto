@@ -5,7 +5,6 @@ include 'DAL/session.php';
 // Llamada a la función
 $conn = Conecta();
 
-
 // Obtener el nombre de usuario de la sesión
 $nombreUsuario = $_SESSION['usuario'];
 

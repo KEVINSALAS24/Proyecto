@@ -1,6 +1,5 @@
 <?php
 
-
 include '../DAL/conexion.php';
 include '../DAL/session.php';
 
