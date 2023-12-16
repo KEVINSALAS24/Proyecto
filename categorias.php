@@ -82,7 +82,7 @@ $mensaje = isset($_GET['mensaje']) ? urldecode($_GET['mensaje']) : '';
                     </td>
                 </tr>                
             ";
-        }   
+        }
         echo
             "</tbody>
         </table>

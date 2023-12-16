@@ -19,6 +19,10 @@ if (isset($_GET['accion']) && $_GET['accion'] == 'llamarFuncion') {
 }
 ?>
 
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 

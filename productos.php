@@ -16,7 +16,6 @@ $mensaje = isset($_GET['mensaje']) ? urldecode($_GET['mensaje']) : '';
 
 <!DOCTYPE html>
 <html lang="es">
-    
 
 <head>
 
@@ -84,7 +83,7 @@ $mensaje = isset($_GET['mensaje']) ? urldecode($_GET['mensaje']) : '';
 
             echo "
                 <tr>
-                    <td style='width:6rem'>CAT-" . $row["id"] . "</td>
+                    <td style='width:6rem'>SKU-" . $row["id"] . "</td>
                     <td>" . $row["nombre"] . "</td>
                     <td>" . $row["descripcion"] . "</td>
                     <td>" . $row["img"] . "</td>
